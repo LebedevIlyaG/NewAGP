@@ -15,3 +15,6 @@ file(GLOB SRC_FILES ${CMAKE_CURRENT_SOURCE_DIR}/libs/sample_src/Hill/*.cpp
 					${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
 
 add_executable(${PROJECT_NAME_STR} ${SRC_FILES})
+
+add_subdirectory(${PROJECT_SOURCE_DIR}/GoogleTest)
+add_subdirectory(${PROJECT_SOURCE_DIR}/Test)
