@@ -1,0 +1,6 @@
+[submodule "libs"]
+	path = libs
+	url = https://github.com/OptimLLab/GCGen.git
+[submodule "GoogleTest"]
+	path = GoogleTest
+	url = https://github.com/google/googletest.git
